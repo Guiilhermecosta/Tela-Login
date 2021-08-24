@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+         background-image: linear-gradient(45deg, rgba(22, 22, 22, 0.986), rgba(255, 4, 4, 0.986));
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.89);
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 30px;
+            border-radius: 15px;
+            display: grid;
+            place-items: center;
+            
+            
+        }
+        button{
+            background-color: rgb(70, 70, 172);
+            color: white;
+            padding: 15px;
+             width: 100%;
+             border: none;
+             border-radius: 10px;
+             font-size: 20px;
+        }
+        input{
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding: 15px;
+        }
+        button:hover{
+            background-color: cornflowerblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br><br>
+        <input type="password" name="senha" id="senha" placeholder="senha">
+        <br><br>
+        <button type="submit">Acessar</button>
+    </div>
+</body>
+</html>
